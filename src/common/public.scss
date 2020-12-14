@@ -1,0 +1,38 @@
+
+.small_icon{
+    width: 50upx;
+    height: 50upx;
+}
+.least_icon{
+    width: 40upx;
+    height: 40upx;
+}
+.uniText_left{
+    text-align: left;
+}
+.uniText_center{
+    text-align: center;
+}
+.uniText_inline{
+    display: inline;
+}
+.background_mask {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 0;
+    background-color: rgba($color: #000000, $alpha: .5);
+}
+.btn_bottom{
+    position: fixed;
+    bottom: 40upx;
+    width: 100%;
+}
+.split_line{
+    width: 100%;
+    height: 1px;
+    background-color: $gray-2;
+    transform: scaleY(0.5);
+}

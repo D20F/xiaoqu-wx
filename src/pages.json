@@ -1,0 +1,206 @@
+{
+    "pages": [
+        {
+            "path": "pages/home/home",
+            "style": {
+                "navigationBarTitleText": "首页"
+            }
+        },
+        {
+            "path": "pages/login/login"
+        },
+        {
+            "path": "pages/home/map/recycling_map",
+            "style": {
+                "navigationBarTitleText": "附近回收机"
+            }
+        },
+        {
+            "path": "pages/home/recycleSort/index",
+            "style": {
+                "navigationBarTitleText": "回收分类"
+            }
+        },
+        {
+            "path": "pages/home/recycliGuide/index",
+            "style": {
+                "navigationBarTitleText": "回收指南"
+            }
+        },
+        {
+            "path": "pages/home/knowledgeQuiz/game_start/index",
+            "style": {
+                "navigationBarTitleText": "知识问答"
+            }
+        },
+        {
+            "path": "pages/home/knowledgeQuiz/playing/index",
+            "style": {
+                "navigationBarTitleText": "知识问答"
+            }
+        },
+        {
+            "path": "pages/recycle/recycle"
+        },
+        {
+            "path": "pages/recycle/recycle_completed"
+        },
+        {
+            "path": "pages/recycle/moderated"
+        },
+        {
+            "path": "pages/recycle/delivery_details",
+            "style": {
+                "navigationBarTitleText": "投递详情"
+            }
+        },
+        {
+            "path": "pages/recycle/delivery_completed"
+        },
+        {
+            "path": "pages/recycle/bottle_inspection"
+        },
+        {
+            "path": "pages/pointsMall/pointsMall"
+        },
+        {
+            "path": "pages/pointsMall/vendingMachine/index",
+            "style": {
+                "navigationBarTitleText": "选择商品"
+            }
+        },
+        {
+            "path": "pages/pointsMall/vendingMachine/orderDefray",
+            "style": {
+                "navigationBarTitleText": "支付订单"
+            }
+        },
+        {
+            "path": "pages/pointsMall/vendingMachine/orderComplete"
+        },
+        {
+            "path": "pages/my/my"
+        },
+        {
+            "path": "pages/my/my_information/my_information",
+            "style": {
+                "navigationBarTitleText": "个人信息"
+            }
+        },
+        {
+            "path": "pages/my/my_information/export_PrivateKey",
+            "style": {
+                "navigationBarTitleText": "导出私钥"
+            }
+        },
+        {
+            "path": "pages/my/my_setting/my_setting",
+            "style": {
+                "navigationBarTitleText": "设置"
+            }
+        },
+        {
+            "path": "pages/my/my_setting/aboutUs",
+            "style": {
+                "navigationBarTitleText": "关于我们"
+            }
+        },
+        {
+            "path": "pages/my/notification/notification",
+            "style": {
+                "navigationBarTitleText": "消息通知"
+            }
+        },
+        {
+            "path": "pages/my/relativeAccount/account",
+            "style": {
+                "navigationBarTitleText": "亲属账号"
+            }
+        },
+        {
+            "path": "pages/my/relativeAccount/new_account",
+            "style": {
+                "navigationBarTitleText": "新建账号"
+            }
+        },
+        {
+            "path": "pages/my/relativeAccount/delivery_card",
+            "style": {
+                "navigationBarTitleText": "投递卡"
+            }
+        },
+        {
+            "path": "pages/my/relativeAccount/delivery_method"
+        },
+        {
+            "path": "pages/my/order/my_order",
+            "style": {
+                "navigationBarTitleText": "我的订单"
+            }
+        },
+        {
+            "path": "pages/my/order/order_details",
+            "style": {
+                "navigationBarTitleText": "订单详情"
+            }
+        },
+        {
+            "path": "pages/my/order/delivery_details"
+        },
+        {
+            "path": "pages/my/totalRecovery/recycle",
+            "style": {
+                "navigationBarTitleText": "回收总量"
+            }
+        },
+        {
+            "path": "pages/my/totalRecovery/poster"
+        },
+        {
+            "path": "pages/my/income/income",
+            "style": {
+                "navigationBarTitleText": "我的收益",
+                "navigationBarTextStyle": "white",
+                "navigationBarBackgroundColor": "#1AC771"
+            }
+        },
+        {
+            "path": "pages/my/income/withdraw",
+            "style": {
+                "navigationBarTitleText": "提现"
+            }
+        },
+        {
+            "path": "pages/my/bindPortal/bindPortal",
+            "style": {
+                "navigationBarTitleText": "门户地址"
+            }
+        },
+        {
+            "path": "pages/my/bindPortal/addAddress",
+            "style": {
+                "navigationBarTitleText": "新建地址"
+            }
+        },
+        {
+            "path": "pages/my/bindPortal/changeAddress",
+            "style": {
+                "navigationBarTitleText": "编辑地址"
+            }
+        }
+    ],
+    "permission": {
+        "scope.userLocation": {
+            "desc": "你的位置信息将用于小程序的地图"
+        }
+    },
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "backgroundColor": "#EFEFEF"
+    },
+    "easycom": {
+        "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+    }
+}

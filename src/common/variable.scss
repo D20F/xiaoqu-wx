@@ -1,0 +1,176 @@
+
+$fruit-1: RGB(5,1,22);
+$green-1:  #00B075;
+$green-2:  #D2E6DC;
+$green-3:  #9AE6CD;
+$green-4:  #00B075;
+$green-5:  #E6FFF9;
+$yellow-1:  #FBD239;
+$red-1:  #F1485B;
+$black-1:  #242424;
+$black-2:  #43495D;
+$gray-1:  #CCCCCC;
+$gray-2:  #E6E6E6;
+$gray-3:  #F8FAF9;
+$gray-4:  #E7EAE5;
+$gray-5:  #707070;
+$gray-6:  #DFE5E0;
+$gray-7:  #000000;
+$white-1:  #FAFAFA;
+$white-2:  #ffffff;
+$golden-1:  #FFA509;
+$golden-2:  rgba(255, 165, 9, 0.1);
+$purple-1:  #929BEA;
+$purple-2:  #F1F2FF;
+$bule-1:  #3774EE;
+
+$font-size-0: 15upx;
+$font-size-1: 20upx;
+$font-size-2: 20upx;
+$font-size-3: 24upx;
+$font-size-4: 28upx;
+$font-size-5: 32upx;
+$font-size-6: 36upx;
+$font-size-7: 48upx;
+
+
+.font_green_1{
+    color: $green-1;
+}
+.font_green_4{
+    color: $green-4;
+}
+.font_gray_1{
+    color: $gray-1;
+}
+.font_gray_2{
+    color: $gray-2;
+}
+.font_black_1{
+    color: $black-1;
+}
+.font_white_2{
+    color: $white-2;
+}
+.font_golden_1{
+    color: $golden-1;
+}
+.font_purple_1{
+    color: $purple-1;
+}
+.font_bule_1{
+    color: $bule-1;
+}
+.font_yellow_1{
+    color: $yellow-1;
+}
+.font_red_1{
+    color: $red-1;
+}
+.font_size_2{
+    font-size: $font-size-2;
+}
+.font_size_3{
+    font-size: $font-size-3;
+}
+.font_size_4{
+    font-size: $font-size-4;
+}
+.font_size_5{
+    font-size: $font-size-5;
+}
+.font_size_24{
+    font-size: 24upx;
+}
+.font_size_28{
+    font-size: 28upx;
+}
+.font_size_32{
+    font-size: 32upx;
+}
+.font_size_36{
+    font-size: 36upx;
+}
+.font_weight{
+    font-weight: 600;
+}
+
+
+.background_color_green_1{
+    background-color: $green-1;
+}
+.background_color_green_3{
+    background-color: $green-3;
+}
+.background_color_green_4{
+    background-color: $green-4;
+}
+.background_color_red_1{
+    background-color: $red-1;
+}
+.background_color_yellow_1{
+    background-color: $yellow-1;
+}
+.background_color_gray_2{
+    background-color: $gray-2;
+}
+.background_color_gray_1{
+    background-color: $gray-1;
+}
+
+
+
+@font-face {
+	font-family: texticons;
+	src: url('https://at.alicdn.com/t/font_702773_g9f89om4v3j.ttf') format('truetype');
+}
+
+.font_green1_24{
+    color: $green-1;
+    font-size: 24upx;
+}
+.font_gray1_28{
+    color: $gray-1;
+    font-size: 28upx;
+}
+.font_gray1_20{
+    color: $gray-1;
+    font-size: 20upx;
+}
+.font_black1_32{
+    color: $black-1;
+    font-size: 32upx;
+}
+.font_black1_36{
+    color: $black-1;
+    font-size: 36upx;
+}
+.font_black1_48{
+    color: $black-1;
+    font-size: 48upx;
+}
+.font_weight_black1_32{
+    color: $black-1;
+    font-weight: 600;
+    font-size: 32upx;
+}
+.font_weight_black1_36{
+    color: $black-1;
+    font-weight: 600;
+    font-size: 36upx;
+}
+.font_weight_black1_48{
+    color: $black-1;
+    font-weight: 600;
+    font-size: 48upx;
+}
+.font_weight_green1_32{
+    color: $green-1;
+    font-weight: 600;
+    font-size: 32upx;
+}
+.font_weight_black1_36{
+    color: $black-1;
+    font-weight: 600;
+    font-size: 36upx;
+}

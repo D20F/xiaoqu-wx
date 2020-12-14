@@ -1,0 +1,53 @@
+{
+    "name" : "孢子垃圾回收",
+    "appid" : "__UNI__19CD7CA",
+    "description" : "孢子垃圾回收小程序",
+    "transformPx" : false,
+    "icons" : [
+        {
+            "sizes" : "分辨率，192x192",
+            "src" : "图片路径"
+        }
+    ],
+    "versionName" : "1.0.2",
+    "versionCode" : 102,
+    "app-plus" : {
+        "usingComponents" : true,
+        "compilerVersion" : 3,
+        "distribute" : {
+            "sdkConfigs" : {
+                "ad" : {}
+            }
+        }
+    },
+    "quickapp" : {},
+    "mp-weixin" : {
+        "appid" : "wx666a35d6e6a21443",
+        "setting" : {
+            "urlCheck" : false,
+            "postcss" : false
+        },
+        "usingComponents" : true,
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "你的位置信息将用于小程序的地图"
+            }
+        }
+    },
+    "mp-alipay" : {
+        "usingComponents" : true
+    },
+    "mp-baidu" : {
+        "usingComponents" : true
+    },
+    "mp-toutiao" : {
+        "usingComponents" : true
+    },
+    "h5" : {
+        "template" : "template.h5.html",
+        "router" : {
+            "mode" : "hash",
+            "base" : "/demo/picture/website/"
+        }
+    }
+}
