@@ -76,6 +76,7 @@ export default {
             ],
             wx: {
                 unionid: "",
+                openId: "",
                 session_key: "",
                 phoneNumber: "",
             },
@@ -143,6 +144,7 @@ export default {
 
                 let parse = {
                     unionid: this.wx.unionid,
+                    openid: this.wx.openId,
                     phone: this.wx.phoneNumber,
                 };
                 wechatLogin(parse)
@@ -157,11 +159,13 @@ export default {
                             setStorage("phoneNumber", parse.phone);
                             setStorage("account", res.data.account);
                             setStorage("avatar", res.data.head_url);
+                            setStorage("openId", that.wx.openId);
                             that.$store.commit("phoneNumberFun", parse.phone);
                             that.$store.commit("accountFun", res.data.account);
                             that.$store.commit("avatarFun", res.data.head_url);
+                            that.$store.commit("openIdFun", that.wx.openId);
                             uni.reLaunch({
-                                url: '/pages/home/home'
+                                url: "/pages/home/home",
                             });
                             // console.log(that.$store.state.account.phoneNumber);
                         } else {
@@ -204,7 +208,10 @@ export default {
 
                 console.log("解密后 data: ", data);
                 console.log("解密后 data: ", data.unionId);
+                console.log("解密后 data: ", data.openId);
+
                 this.wx.unionid = data.unionId;
+                this.wx.openId = data.openId;
                 this.step = 1;
             }
         },
